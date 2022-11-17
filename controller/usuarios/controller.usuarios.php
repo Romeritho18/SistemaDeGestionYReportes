@@ -18,7 +18,7 @@ if (!empty($carpeta_trabajo)) {
 include($absolute_include . "conexion/conexion.php");   
 
 
-include($absolute_include . "model/model.usuarios.php"); 
+include($absolute_include . "model/usuarios/model.usuarios.php"); 
 
 $accion = "";
 

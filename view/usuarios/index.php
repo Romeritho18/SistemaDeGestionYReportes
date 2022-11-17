@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../barraLateral.css">
-    <link rel="stylesheet" href="../styles/registros.css">
-    <title>Usuarios</title>
-</head>
-
-<body>
     <?php
-    include("../view/barraLateral.php")
+    include($absolute_include."view/Componentes/header.php");
+    include($absolute_include."view/barraLateral.php");
     ?>
 
     <main>
@@ -75,9 +63,6 @@
         </div>
     </main>
 
-    <script src="../../js/barraLateral.js"></script>
-
-
-</body>
-
-</html>
+<?php 
+    include($absolute_include."view/Componentes/footer.php");
+?>
