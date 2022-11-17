@@ -33,8 +33,9 @@ if (isset($_REQUEST['accion'])) {
 // DEFINE LA ACCIÓN A REALIZAR
 
 if ($accion == "" or $accion == "index") {
-
   usuarios_index($textoabuscar);
+}else if ($accion == "crear") {
+  usuarios_crear($textoabuscar);
 }
 
 
@@ -48,4 +49,13 @@ function usuarios_index($arg_textoabuscar)
 
 
   include($absolute_include . "view/usuarios/index.php");
+}
+
+function usuarios_crear($arg_textoabuscar)
+{
+
+  $absolute_include = $GLOBALS['absolute_include'];
+  $carpeta_trabajo = $GLOBALS['carpeta_trabajo'];
+
+  include($absolute_include . "view/usuarios/crear.php");
 }

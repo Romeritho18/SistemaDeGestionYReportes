@@ -19,7 +19,10 @@
         <div class="container">
             <h2>LISTA DE LOS USUARIOS</h2>
 
-            <button><a href="#">Agregar Usuario</a></button>
+            <form action="<?php echo $carpeta_trabajo; ?>/controller/controller.usuarios.php" method="POST">
+                <input type="hidden" name="accion" value="crear">
+                <button type="submit" class="btn btn-round btn-success btn-block"></i> Agregar Usuario</button>
+            </form>
 
             <div class="row g-4">
 
@@ -44,7 +47,7 @@
 
                         <!-- El id del cuerpo de la tabla. -->
                         <tbody id="content">
-                        
+
                             <?php
                             foreach ($usuarios as $usuarios) : ?>
                                 <tr>
@@ -53,7 +56,7 @@
                                     <td class="text-center"><?php echo $usuarios['contraseña']; ?></td>
                                     <td class="text-center"><?php echo $usuarios['descripcionTipoUsuario']; ?></td>
                                     <td class="text-center"><?php echo $usuarios['descripcionTipoUsuario']; ?></td>
-                                    
+
                                 </tr>
                             <?php endforeach; ?>
 
