@@ -22,11 +22,11 @@
                     <table>
                         <tr>
                             <td>Nombre</td>
-                            <td><input type="text" name="nombre" placeholder="Ingrese el nombre" required></td>
+                            <td><input type="text" name="nombre" placeholder="Ingrese el nombre"  value="<?php echo $usuario['nombre']; ?>"></td>
                         </tr>
                         <tr>
                             <td>Apellido</td>
-                            <td><input type="text" name="apellido" placeholder="Ingrese el apellido" required></td>
+                            <td><input type="text" name="apellido" placeholder="Ingrese el apellido" ></td>
                         </tr>
                         <tr>
                             <td>Fecha de Nacimiento</td>

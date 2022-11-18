@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-
     <link rel="stylesheet" href="../styles/barraLateral.css">
 
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
@@ -36,13 +35,12 @@
                 </div>
             </a>
 
-            <a href="#">
+            <a href="../usuarios/controller.usuarios.php">
                 <div class="option">
                     <i class="fa-solid fa-user"></i>
                     <h4>Usuarios</h4>
                 </div>
             </a>
-
 
         </div>
 
@@ -50,5 +48,4 @@
 
     <script src="../js/barraLateral.js"></script>
 </body>
-
 </html>

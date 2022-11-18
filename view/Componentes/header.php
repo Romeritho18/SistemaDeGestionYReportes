@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo $absolute_include ?>styles/barraLateral.css">
     <link rel="stylesheet" href="<?php echo $absolute_include ?>styles/registros.css">
+    <link rel="stylesheet" href="<?php echo $absolute_include ?>styles/formularios.css">
     <title>Sistema de Gestion</title>
 </head>
 <body>
