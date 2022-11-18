@@ -22,7 +22,7 @@
                     <table>
                         <tr>
                             <td>Nombre</td>
-                            <td><input type="text" name="nombre" placeholder="Ingrese el nombre"  value="<?php echo $usuario['nombre']; ?>"></td>
+                            <td><input type="text" name="nombre" placeholder="Ingrese el nombre"></td>
                         </tr>
                         <tr>
                             <td>Apellido</td>

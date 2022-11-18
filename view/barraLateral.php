@@ -36,9 +36,20 @@
             </a>
 
             <a href="../usuarios/controller.usuarios.php">
+
+            <a href="<?php echo $absolute_include ?>controller/usuarios/controller.usuarios.php">
+
                 <div class="option">
                     <i class="fa-solid fa-user"></i>
                     <h4>Usuarios</h4>
+                </div>
+            </a>
+
+
+            <a href="<?php echo $absolute_include ?>controller/areas/controler_area.php">
+                <div class="option">
+                <i class="fa-solid fa-layer-group"></i>
+                    <h4>Areas</h4>
                 </div>
             </a>
 
